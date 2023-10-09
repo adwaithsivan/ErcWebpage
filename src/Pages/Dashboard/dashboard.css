@@ -1,0 +1,161 @@
+.dashboard a{
+    text-decoration: none;
+    color: black;
+}
+.dashboard-table{
+    margin-top: -2rem;
+    margin-bottom:5rem;
+}
+.dashboard-query{
+    margin-top:-1rem;
+    margin-left: 27rem;
+    display: flex;
+    column-gap: 2rem;
+}
+.pulse {
+  display: flex;
+  font-size: 18px;
+  column-gap: 12rem;
+  margin-left: 32rem;
+  font-weight: 600;
+  color: red;
+}
+.blink-hard {
+  animation: blinker .5s step-end infinite;
+}
+@keyframes blinker {
+
+  50% {
+    opacity: 0;
+  }
+}
+
+
+.blink-text
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 1.5s linear infinite;
+  display: inline-block;
+  font-size: 28px;
+  font-family: Verdana;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.blink-text2 {
+  text-align: center;
+  animation: blink-text 1s linear infinite;
+  font-size: 28px;
+  font-family: Verdana;
+
+ }
+ @keyframes blink-text {
+  30% {
+   opacity: 0;
+  }
+  50% {
+   opacity: 1;
+  }
+  100% {
+   opacity: 0;
+  }
+} 
+
+
+#dash-btn {
+    --border: 2px;    /* the border width */
+    --slant: 0.1em;   /* control the slanted corners */
+    --color: #396bf5; /* the color */
+    
+    font-size: 21px;
+    padding: 0.3em .8em;
+    border: none;
+    cursor: pointer;
+    font-weight:600;
+    color: var(--color);
+    background: 
+       linear-gradient(to bottom left,var(--color)  50%,#0000 50.1%) top right,
+       linear-gradient(to top   right,var(--color)  50%,#0000 50.1%) bottom left;
+    background-size: calc(var(--slant) + 1.3*var(--border)) calc(var(--slant) + 1.3*var(--border));
+    background-repeat: no-repeat;
+    box-shadow:
+      0 0 0 200px inset var(--s,#0000),
+      0 0 0 var(--border) inset var(--color);
+    clip-path: 
+        polygon(0 0, calc(100% - var(--slant)) 0, 100% var(--slant),
+                100% 100%, var(--slant) 100%,0 calc(100% - var(--slant))
+               );
+    transition: color var(--t,0.3s), background-size 0.3s;
+  }
+  #dash-btn:focus-visible {
+    outline-offset: calc(-1*var(--border));
+    outline: var(--border) solid #000c;
+    clip-path: none;
+    background-size: 0 0;
+  }
+  #dash-btn:hover,
+  #dash-btn:active{
+    background-size: 100% 100%;
+    color: #fff;
+    --t: 0.2s 0.1s;
+  }
+  #dash-btn :active {
+    --s: #0005;
+    transition: none;
+  }
+  
+
+    .blink-text2:hover{
+      color:white
+    }
+  
+    @media only screen and (max-width:1600px){
+      #dash-btn{
+        font-size:18px;
+      }
+    }
+  
+    @media (max-width: 480px){
+      #dashboard-query {
+        margin-top: -1rem;
+        margin-left: 3rem;
+        display: flex;
+        column-gap: 2rem;
+        font-size: 12px;
+    }
+    #pulse {
+      column-gap: 11rem;
+      margin-left: 7rem;
+    }
+    }
+    @media only screen and (max-width: 840px){
+      .dashboard-query {
+        margin-top: -1rem;
+        margin-left: 9rem;
+        display: flex;
+        column-gap: 2rem;
+        font-size: 12px;
+    }
+    .pulse {
+      column-gap: 11rem;
+      margin-left: 13rem;
+    }
+    }

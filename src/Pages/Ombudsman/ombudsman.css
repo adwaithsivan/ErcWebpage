@@ -1,0 +1,34 @@
+
+.ombuds-img{
+    width: 100%;
+}
+.ombudsman-content{
+     text-align: justify;
+     font-family: sans-serif;
+}
+.ombudsman-location-head{
+    font-weight: bold;
+}
+
+
+.ombudsman-bt{
+    margin-left: 8px;
+    width: 130px;
+    background-color: #576CBC;
+    color: #fff;
+}
+
+.ombudsman-latest-text{
+    font-weight: bold;
+    margin-top: -8px;
+}
+
+.ombudsman-contact{
+    font-weight: bold;
+}
+.ombudsman-contact-numb{
+    font-weight: 400;
+}
+@media only screen and (max-width: 840px){
+    
+}

@@ -1,0 +1,495 @@
+
+
+/* .baner-main-aling{
+    height: 400px;
+   
+} */
+
+a{
+    text-decoration: none;
+}
+.baner-img{
+       height: 700px;
+    border-radius: 14px;
+    width: 100%;
+}
+.baner-main-aling{
+    margin: 2.2rem 10rem;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+.carousel-indicators .active {
+    width: 15px;
+    opacity: 1;
+    height: 15px;
+    color: #fff;
+    /* border-radius: 193px; */
+    /* border-radius: 34px; */
+}
+
+
+
+
+/* .carousel-indicators [data-bs-target] {
+    transition: none;
+} */
+
+ .carousel-indicators [data-bs-target] {
+    /* box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 16px;
+    height: 13px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease; */
+    display: none;
+
+} 
+
+.baner-img-3{
+    object-fit: cover;
+       height: 400px;
+    width: 850px;
+    
+}
+
+.baner-box{
+  
+    width: 100%;
+    height: 80px;
+    background-color:#061e3f;
+    display: flex;
+    justify-content: center;
+}
+.baner-box-2{
+    width: 100%;
+    height: 80px;
+    background-color:#061e3f;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.baner-box-3{
+    width: 100%;
+    height: 80px;
+    background-color:#143064;
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.baner-box-7{
+    width: 100%;
+    height: 80px;
+    background-color:#143064;
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.baner-box-4{
+    width: 100%;
+    height: 80px;
+    background-color:#396bf5;
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.left-options{
+    margin-top: -2rem;
+    border: 1px solid black;
+    padding: 10px;
+}
+.right-options{
+    margin-top: -2rem;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.baner-box-5{
+    width: 100%;
+    height: 80px;
+    background-color:#2541b1;
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+}
+.baner-box-6{
+    width: 100%;
+    height: 80px;
+    background-color:#2541b1;
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+}
+
+.baner-box-8{
+    width: 100%;
+    height: 90px;
+    background-color:#396bf5;
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+    
+}
+.baner-box-9{
+    width: 100%;
+    height: 80px;
+    background-color:#5d90ff;
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+}
+.baner-box-10{
+    width: 100%;
+    height: 80px;
+    background-color:#719cfa;
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+}
+
+.baner-box-11{
+    width: 100%;
+    height: 80px;
+    background-color:#5d90ff;
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+}
+.baner-box-12{
+    width: 100%;
+    height: 80px;
+    background-color:#719cfa;
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+}
+.left-options a:hover{
+    color:white;
+    text-decoration:none;
+}
+.right-options a:hover{
+    color:white;
+    text-decoration:none;
+}
+
+
+/* .box-2-container{
+    margin-left: -16px;
+
+} */
+.baner-box:hover{
+    transform: scale(1.1);
+      transition: 0.5s;
+}
+.baner-box-2:hover{
+    transform: scale(1.1);
+      transition: 0.5s;
+}
+.baner-box-3:hover{
+    transform: scale(1.1);
+      transition: 0.5s;
+}
+.baner-box-4:hover{
+    transform: scale(1.1);
+      transition: 0.5s;
+}
+.baner-box-5:hover{
+    transform: scale(1.1);
+      transition: 0.5s;
+}
+.baner-box-6:hover{
+    transform: scale(1.1);
+      transition: 0.5s;
+}
+.baner-box-7:hover{
+    transform: scale(1.1);
+      transition: 0.5s;
+}
+.baner-box-8:hover{
+    transform: scale(1.1);
+      transition: 0.5s;
+}
+.baner-box-9:hover{
+    transform: scale(1.1);
+      transition: 0.5s;
+}
+.baner-box-10:hover{
+    transform: scale(1.1);
+      transition: 0.5s;
+}
+
+.baner-box-11:hover{
+    transform: scale(1.1);
+      transition: 0.5s;
+}
+
+.baner-box-12:hover{
+    transform: scale(1.1);
+      transition: 0.5s;
+}
+
+
+.orders-icon{
+    height: 34px;
+    margin-top: 10px;
+    margin-left: 10px;
+    /* position: relative;
+    left: 58px;
+    top: 6px; */
+}
+
+.orders-text{
+ color: #fff;
+    /* font-size: 16px; */
+    font-weight: 400;
+    /* position: relative;
+    left: 61px; */
+     /* display: flex;
+    justify-content: center; */
+    text-decoration: none;
+    /* top: 4px; */
+    font-family: sans-serif;
+     margin-top: 8px;
+     cursor: pointer;
+}
+
+.Regulations-icon{
+    height: 32px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.petition-icon{
+    height: 32px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.Regulations-text{
+ color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.Schedule-icon{
+    margin-top: 8px;
+    height:28px;
+    margin-left: 60px;
+   
+}
+.doc-icon{
+    margin-top: 8px;
+    margin-left: 45px;
+}
+
+.ombudsman-icon{
+    height: 30px;
+    margin-left: 28px;
+    margin-top: 10px;
+}
+
+.quote-icon{
+    margin-left: 28px;
+    margin-top: 10px;
+}
+.cac-icon{
+    margin-left: 105px;
+    margin-top: 10px;
+}
+.Licensees-icon{
+    height: 34px;
+   margin-top: 10px;
+   margin-left: 10px;
+   
+}
+
+#press-icon{
+   
+   margin-left:  35px;
+   margin-top: 10px ;
+   
+}
+
+.cgrf-icon{
+    margin-left: 5px;
+    margin-top: 10px ;
+   
+}
+
+
+.Schedule-text{
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Consumer-text{
+ color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+.cgrf-text{
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.advocacy-text{
+    color: #fff;
+    font-weight: 400;
+    font-size:14px;
+    text-decoration: none;
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+
+  
+
+.mySwiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .baner-1-conrainer.col-md-8{
+    height: 40%;
+  }
+  .mt-4.col-md-2{
+  
+    border: 1px solid #0B2447;
+  }
+  .mt-4{
+    padding-top: 12px;
+  }
+
+
+  @media (max-width: 640px) {
+    .baner-main-aling {
+        margin: 2.2rem 2rem;
+      }
+      .swiper-slide {
+        margin-top: 6rem;
+      }
+      .right-options {
+        margin-top: 2rem;
+      }
+      .baner-1-conrainer.col-md-8 {
+        margin-top: 2rem;
+        height: 40%;
+    }
+    .swiper {
+        z-index: 0;
+      }
+    #cac-icon {
+        margin-left: 100px;
+      }
+      .mySwiper {
+        width: 100%;
+        height: 100%;
+      }
+     
+  }
+
+  @media only screen and (max-width:1600px){
+    .swiper-slide {
+        height: 30rem;
+    }
+    .cac-icon{
+        margin-left: 120px; 
+    }
+  }
+  @media only screen and (max-width:1024px){
+    .baner-main-aling{
+        margin: 2.2rem 1rem;
+    }
+    .advocacy-text{
+        color: #fff;
+        font-weight: 400;
+        
+    }
+   
+  }
+  @media only screen and (max-width: 1440px) {
+    .baner-main-aling{
+        margin: 2.2rem 2rem;
+    }
+  }
+  @media only screen and (max-width: 840px) {
+    .baner-main-aling {
+        margin: 2.2rem 1rem;
+      }
+      .baner-1-conrainer.col-md-8 {
+        width: 28rem;
+      }
+      .left-options {
+        width: 11rem;
+        z-index: 1;
+      }
+      .right-options {
+        width: 11rem;
+      }
+      .cac-icon{
+        margin-left: 67px; 
+    }
+   
+  }

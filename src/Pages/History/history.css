@@ -1,0 +1,38 @@
+.row-history{
+    display:flex;
+    gap:3rem;
+}
+.card-history{
+    border:1px solid grey;
+    height:20rem;
+}
+#history{
+    margin-top:15px;
+    margin-bottom:5rem;
+}
+.tenure{
+    font-size:20px;
+    font-weight:600;
+}
+
+@media (max-width: 640px){
+    .row-history {
+        display: flex;
+        gap: 3rem;
+        flex-direction: column;
+        margin-left: 5rem;
+      }
+      .card-history{
+        border:1px solid grey;
+        height:20rem;
+        width:16rem;
+    }
+    .card-img {
+        width: 15rem;
+        height: 15rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+      }
+      
+}

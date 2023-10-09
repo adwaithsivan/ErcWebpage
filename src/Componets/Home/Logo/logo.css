@@ -1,0 +1,104 @@
+
+.logo-name{
+
+    color: #19376D;
+    font-family: arial;
+    font-weight: bold;
+    margin-right: 28px;
+}
+
+ @media only screen and (max-width: 320) {
+ .logo-name{
+         color: #19376D;
+    font-family: arial;
+    margin-right: 28px;
+    font-size: 18px;
+    
+  }
+} 
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+ .logo-name-malayalam{
+     
+  display: none;
+  }
+} 
+
+
+.logo-name-malayalam{
+
+    color: #19376D;
+    font-family: arial;
+font-weight: bold;
+margin-left: -142px;
+}
+
+
+
+
+.logo-img1{
+    margin-right: 66px;
+}
+
+
+@media only screen and (max-width: 768px) {
+ .logo-img1 {
+       display: none;
+  }
+}
+
+ @media only screen and (max-width: 768px) {
+ .logo-img-3 {
+       display: none;
+  }
+} 
+
+
+
+
+.logo-img-3{
+    margin-left: 66px;
+}
+
+.logo-aling{
+    display: flex;
+   
+}
+
+
+.logo-aling-eng{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media only screen and (max-width: 425) {
+ .logo-aling-eng{
+     
+    width: 0px;
+
+    margin-top: -42px;
+
+  
+
+  }
+} 
+
+
+
+ @media only screen and (max-width: 768) {
+  .logo{
+    display:none;
+  }
+ }
+
+
+
+   
+
+
+

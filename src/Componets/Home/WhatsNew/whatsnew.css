@@ -1,0 +1,237 @@
+/* .whats-new {
+  margin-top: 2rem;
+  background-image: url(../../../img/solar-panel.webp);
+  padding:1rem 0;
+  } */
+  .whats-new-text-1 a{
+    color:black;
+  }
+  .whats-new-text-2 a{
+    color:black;
+  }
+  .whats-new-wrapper{
+    margin:0 8rem;
+  }
+  #first{
+    padding-top:15px;
+  }
+  .solar-panel{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+  }
+  .bg-image{
+    margin-top:2rem;
+    z-index:-10;
+    position:relative;
+  }
+  .inner{
+    position:absolute;
+    top:55rem;
+    z-index:2;
+  }
+  .news{
+    margin-top: 2rem;
+  }
+
+
+    .whats-now-box {
+      width: 100%;
+      aspect-ratio: 3/1;
+      height: 450px;
+      background-color: white;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      scroll-snap-type: y mandatory;
+      scroll-padding: 20px;
+      
+  }
+  .whats-now-box ul li {
+
+    list-style:none;
+  }
+
+  .whats-new-text-1 {
+    padding: 8px;
+    background-color: white;
+  }
+  .whats-new-text-2 {
+    padding: 8px;
+    background-color: #edf2fb;
+  }
+  .report-img-1 {
+    object-fit: cover;
+  }
+  /* .news-text-whats {
+    background-color: #00048b;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+  } */
+  .news-text-whats {
+    background-color: white;
+    padding: 10px;
+    color: #00048b;
+    font-weight: 700;
+  }
+  
+.nav{
+  display: flex;
+flex-direction: row;
+  column-gap: 10px;
+}
+  
+  .nav-tabs .nav-link {
+    margin-bottom: calc(-1 * var(--bs-nav-tabs-border-width));
+    border: var(--bs-nav-tabs-border-width) solid transparent;
+    border-top-left-radius: var(--bs-nav-tabs-border-radius);
+    border-top-right-radius: var(--bs-nav-tabs-border-radius);
+   
+    background-color: #A5D7E8;
+    color: #000;
+  }
+  .nav-tabs .nav-link:hover {
+    margin-bottom: calc(-1 * var(--bs-nav-tabs-border-width));
+    border: var(--bs-nav-tabs-border-width) solid transparent;
+    border-top-left-radius: var(--bs-nav-tabs-border-radius);
+    border-top-right-radius: var(--bs-nav-tabs-border-radius);
+    background-color: #A5D7E8;
+    color: black;
+  }
+  
+  report-btn-tab {
+    color: #fff;
+  }
+  
+  .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link.active {
+    color: var(--bs-nav-tabs-link-active-color);
+    background-color: #19376d;
+    border-color: var(--bs-nav-tabs-link-active-border-color);
+    color: white;
+  }
+  #icons {
+    margin-left: 4.5rem;
+  }
+  
+  
+  
+  .news-img{
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+     height: 500px;
+    
+     background-color:transparent;
+  }
+  
+  .news-text-1{
+    padding-top: 2rem;
+  }
+  .news-head-1{
+    color: #00048b;
+   
+  }
+  .news-container-bord{
+    margin-top: 2rem;
+  }
+  
+  
+  .news-text-1{
+    color: #000;
+  }
+  
+  
+  
+
+  @media (max-width: 640px){
+    .inner {
+      position: absolute;
+      top: 130rem;
+      z-index: 2;
+
+    }
+    .news{
+      margin-top:-2rem;
+    }
+    #whats-new-row{
+      width: 24rem;
+    }
+
+    .whats-new-text-1 {
+      padding: 5px;
+      background-color: white;
+    }
+    .whats-new-text-2 {
+      padding: 5px;
+      background-color: #edf2fb;
+    }
+    #news2{
+      margin-top:2rem;
+    }
+    .whats-now-box {
+      aspect-ratio: 3/1;
+      height: 340px;
+      background-color: white;
+      overflow-x: hidden;
+      overflow-y: scroll;
+      scroll-snap-type: y mandatory;
+      scroll-padding: 10px;
+      font-size: 13px;
+      width:22.5rem;
+    }
+    #news2 h3{
+      color: #00048b;
+    }
+    .whats-new{
+      margin:2rem 0rem;
+    }
+     .solar-panel {
+      width: 100%;
+      height: 118vh;
+      object-fit: cover;
+    }
+
+  }
+  
+  @media only screen and (max-width:1600px){
+    .solar-panel{
+      width: 100%;
+      /* height: 80vh; */
+      object-fit: cover;
+    }
+  }
+  @media only screen and (max-width: 1024px){
+    .whats-new-wrapper {
+      margin: 2rem 2rem;
+    }
+    .inner {
+      width: 64rem;
+    }
+  }
+  @media only screen and (min-width: 1440px) {
+    .whats-new-wrapper {
+      margin: 0 2rem;
+    }
+  }
+
+  @media only screen and (max-width: 840px){
+    #whats-new-row{
+      display: flex;
+      flex-direction: column;
+    }
+    .inner {
+      width: 99rem;
+    }
+    .solar-panel {
+      width: 100%;
+      height: 95vh;
+      object-fit: cover;
+    }
+  }

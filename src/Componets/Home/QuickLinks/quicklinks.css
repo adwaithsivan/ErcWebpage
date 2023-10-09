@@ -1,0 +1,49 @@
+.link-container{
+    margin: 8rem 8rem;
+}
+.link-container h3{
+    color: #00048b;
+    font-weight: 700;
+}
+
+.marquee-container1 {
+    margin-top: -4rem;
+    overflow-x: hidden !important;
+}
+
+@media (max-width: 640px){
+  .link-container {
+    margin: 7rem 2rem;
+}
+      .carrer-main {
+        margin-top: -6rem;
+      }
+      .all-links ul {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+      }
+      .marquee-container1 {
+        margin-top: 4rem;
+        overflow-x: hidden !important;
+      }
+      .marquee2{
+        margin:2rem 2rem;
+      }
+}
+/* @media only screen and (max-width:1600px){
+    .link-container{
+        margin: 8rem 8rem;
+    }
+} */
+/* @media only screen and (max-width: 1024px){
+  .link-container{
+    margin: 8rem 2rem;
+}
+} */
+
+@media only screen and (max-width: 840px) {
+  .link-container{
+    margin: 8rem 2rem;
+}
+}

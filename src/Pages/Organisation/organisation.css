@@ -1,0 +1,23 @@
+.organisation-img{
+    background-image: url(../../../src/img/right-to-in-fo-2.jpg);
+ width: 100%; 
+ height: 130px;
+}
+
+.organisation-head{
+    text-align: center;
+    color: #fff;
+   padding-top: 45px;
+}
+.cart-img-aling{
+   display: flex;
+   justify-content: center;  
+   margin-top: 20px;
+   
+}
+.Organisation{
+    margin-bottom: 5rem;
+}
+.cart-img{
+width: 100%;
+}

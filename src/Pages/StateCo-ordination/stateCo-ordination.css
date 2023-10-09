@@ -1,0 +1,68 @@
+.StateCoordination{
+    margin: 0;
+    padding: 0;
+}
+.StateCoordination-img {
+    width: 100%;
+    height: 497px;
+}
+.StateCoordination-head{
+    text-align: center;
+    margin-top: 20px;
+}
+.StateCoordination-sub-head{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.StateCoordination-sub-text{
+    text-align: center;
+
+}
+.Explanatory-text{
+    text-align: center;
+}
+.StateCoordination-main{
+    border: 1px solid #000;
+}
+.scf-search-area{
+    margin-left:-12rem;
+}
+.scf-tabs{
+    margin-top:2rem;
+}
+
+.wrapper-scf{
+    margin-top:-2.8rem;
+}
+
+@media (max-width: 640px){
+    .scf-search-area {
+        margin-left: -15rem;
+      }
+      .col-md-3 {
+        flex: 0 0 auto;
+        width: 10rem;
+        margin-left: 4rem;
+        margin-bottom: 20px;
+      }
+      #year-tab{
+        margin-left:7rem;
+        width:12rem;
+        
+      }
+      .tab-content{
+        font-size:13px;
+      }
+      #scf-search-tab{
+        width: 300px;
+      }
+     
+}
+@media only screen and (max-width: 840px){
+    #scf-row{
+        margin-top: 2rem;
+        margin-left: 16rem;
+    }
+    
+}

@@ -1,0 +1,24 @@
+.career{
+    margin: 0;
+    padding: 0;
+}
+.career-img {
+    width: 100%;
+    height: 497px;
+}
+
+
+.career-icon-aling{
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+#search-btn{
+    margin-left: 1.2rem;
+}
+
+@media (max-width: 640px){
+    .wrapper {
+        font-size: 13px;
+      }
+}

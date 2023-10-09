@@ -1,0 +1,29 @@
+figure {
+    width: 30rem;
+    height: 283px;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+  }
+  #gallery-row{
+    margin-bottom:5rem;
+  }
+  .gallery-wrap{
+    margin:2rem 8rem;
+  }
+  #modal{
+    z-index: 1000;
+  
+  }
+  .hover02-column p{
+    text-align:center;
+    font-size:20px;
+  }
+  @media only screen and (max-width:1600px){
+ 	.gallery-wrap {
+		margin: 2rem 2rem;
+	}
+ 
+}
+

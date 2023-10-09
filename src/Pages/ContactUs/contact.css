@@ -1,0 +1,113 @@
+.formcontact{
+    border: 1px;
+    box-shadow: black 1px;
+}
+.details{
+  display: flex;
+  flex-direction: row;
+}
+/* .office-adress{
+   border: 1PX solid #000;
+   padding: 0;
+} */
+.contact-img-office{
+    height: 303px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.our-address-head{
+    text-align: center;
+}
+/* .address-img-contai{
+    margin-top: 10px;
+} */
+
+.address-text{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.email-contact{
+    padding-left: 10px;
+    font-size: 20px;
+}
+.fax-text{
+    font-size: 20px;
+ line-height: 2rem;
+   padding-left: 13px;
+}
+.secretary{
+  margin-top: 2rem;
+}
+.detail-text{
+    
+    font-size: 20px;
+    line-height: 2.5rem;
+      padding-left: 13px;
+}
+
+@media (max-width: 480px){
+    .address-text{
+        text-align: center;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+    
+    .email-contact{
+        padding-left: 10px;
+        font-size: 16px;
+    }
+    .fax-text{
+        font-size: 16px;
+     line-height: 2rem;
+       padding-left: 13px;
+    }
+    .secretary{
+      margin-top: 1rem;
+    }
+    .detail-text{
+        
+        font-size: 16px;
+        line-height: 2.5rem;
+          padding-left: 13px;
+    }
+}
+/* @media only screen and (max-width: 840px){
+    #contact-wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-left: 13rem;
+    }
+    
+    .details{
+        margin-top: -5rem;
+      margin-left: -12rem;
+    }
+    .detail-text{
+        line-height: 2rem;
+        font-size: 14px;
+    }
+    .address-text{
+        margin-top: 45px;
+        font-size: 15px;
+    }
+    
+    .email-contact{
+        padding-left: 10px;
+        font-size: 15px;
+    }
+    .fax-text{
+        font-size: 15px;
+       padding-left: 13px;
+    }
+    .secretary{
+        padding-top: 20px;
+        margin-left: -3rem;
+    }
+    #secrartary-name{
+        margin-top: -5px;
+        margin-left: -10px;
+    }
+   
+} */

@@ -1,0 +1,290 @@
+.background{
+  margin:-2rem 8rem;
+}
+.news-img {
+  height: 400px;
+  width: 100%;
+}
+.news-area{
+  margin-top:-10px;
+}
+
+.title{
+font-size: 14px;
+}
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+   height: 400px;
+   
+}
+
+.news-head-1{
+  color: #00048b;
+  font-size: 32px;
+}
+
+.news-text-1{
+  color: #000;
+}
+.gallery-btn{
+  margin-left:25rem;
+}
+#headings{
+  color: #00048b;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 550px;
+}
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: -0.75rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 3.25rem;
+  color: #fff;
+  text-align: center;
+  top: 22.5rem;
+}
+
+@media only screen and (max-width: 375px) {
+.news-text-1{
+    margin-bottom: 0rem;
+   
+ }
+} 
+
+
+.carousel-item {
+
+  position: relative;
+  display: none;
+  float: left;
+  height: 400px;
+  width: 100%;
+  margin-right: -100%;
+  
+ 
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: -0.75rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom:3.25rem;
+  color: #fff;
+  text-align: center;
+}
+
+.CarouselNews-indicators {
+
+  display: none;
+}
+
+
+.news-bt{
+   
+  width: 123px;
+  background-color: #576CBC;
+  color: #fff;
+  height: 35px;
+  margin-top: -17px;
+}
+
+@media only screen and (max-width: 375px) {
+
+.card-aling{
+  margin-left:25%;
+  width: 50%;
+}
+.news-text{
+  margin-left: 4.5rem;
+ 
+}
+
+
+.member-class{
+width:8rem;
+}
+
+.profile-bt{
+width: 90px;
+font-size: 12px;
+}
+}
+
+
+.swiper {
+  width: 100%;
+  height: 59%;
+  margin-top: 40px;
+
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+ 
+   display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.container-gelley-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.swiper-lide:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.myswiper{
+  margin-top: 2rem;
+}
+
+.gellery-bt{
+  width: 123px;
+  background-color: #576CBC;
+  color: #fff;
+  height: 35px;
+  margin-top: 135pxpx;
+
+  float: right;
+}
+
+
+
+.swiper-wrapper {
+position: relative;
+width: 100%;
+height: 90%;
+z-index: 1;
+display: flex;
+transition-property: transform;
+transition-timing-function: var(--swiper-wrapper-transition-timing-function, initial);
+box-sizing: content-box;
+margin-top: -44px;
+}
+.member-class{
+  width: 10rem;
+}
+.members{
+margin-top: 2rem;
+display: flex;
+flex-direction: row;
+column-gap: 5rem;
+
+}
+.name{
+font-size: 14px;
+}
+@media only screen and (max-width: 375px){
+.members{
+
+  display: flex;
+  flex-direction: row;
+  column-gap: 2rem;
+  margin-left: 2rem;
+  
+}
+}
+.news-curosel{
+  margin-top: 2rem;
+}
+.gallery-news{
+  margin-top: 3rem;
+}
+@media (max-width: 640px){
+  .background {
+    margin: 0 2rem;
+  }
+  .myswiper {
+    margin-top: -4rem;
+  }
+  .swiper {
+    width: 100%;
+    height: 81%;
+    margin-top: -115px;
+  }
+  .gallery-btn {
+    margin-top: 20px;
+    margin-left: 10rem;
+}
+  .news-area {
+    margin-top: -4rem;
+  }
+  .carousel-caption {
+    font-size: 14px;
+  }
+}
+/* @media only screen and (max-width:1600px){
+  .gallery-btn {
+    margin-top: 2rem;
+    margin-left: 16rem;
+}
+} */
+/* @media only screen and (max-width: 1024px){
+  .background{
+    margin:-2rem 2rem;
+  }
+} */
+@media only screen and (min-width: 1440px) {
+  .background {
+    margin: 0 2rem;
+  }
+}
+@media only screen and (max-width: 840px){
+  .background {
+    margin: -2rem 2rem;
+  }
+  .gallery-btn {
+    margin-left: 8rem;
+    margin-top: 1rem;
+  }
+}

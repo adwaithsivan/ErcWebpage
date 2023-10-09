@@ -1,0 +1,22 @@
+.marquee1{
+    display: flex;
+    column-gap: 30px;
+    height: 8rem;
+    margin-top: 2rem;
+    
+}
+
+.link-text a{
+    padding-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 15px;
+    color: black;
+}
+.MuiBox-root{
+    margin-left: 20px;
+}
+.MuiBox-root:hover{
+    transform: scale(1.2);
+    transition: ease-in-out 0.5s;
+}

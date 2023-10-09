@@ -1,0 +1,15 @@
+.faq-container{
+    margin-bottom: 5rem;
+}
+.accordion-button{
+    height:5rem;
+    font-size:20px;
+}
+.accordion-item {
+    margin-top: 2rem;
+
+}
+.accordion-button:hover{
+  background-color:var(--bs-accordion-active-bg);
+  transition:ease .8s;
+}

@@ -1,0 +1,115 @@
+#draft-regulation-search-area{
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+#draft-regulation-table{
+    margin-top: 2rem;
+}
+#reg-form-align{
+    
+    display: flex;
+    justify-content: left;
+}
+.Regulations{
+    margin: 2rem 5rem;
+}
+#search-btn-reg{
+    margin-top: 5px;
+    margin-left: 1.2rem;
+    height: 3rem;
+}
+.reg-row{
+    margin-top: 10px;
+    margin-left: 30rem;
+}
+#dropdown-area{
+    width: 35rem;
+}
+.dropdown-wrapper{
+    margin-left: 28rem;
+}
+#regulation-label{
+    margin-right: -4rem;
+}
+#dropdown-year{
+    width: 15rem;
+}
+#regulation-year{
+    margin-top: 1rem;
+}
+#search-btn-finalreg {
+    margin-top: 1rem;
+    margin-left: 9.4rem;
+    height: 3rem;
+}
+.final-reg-table{
+    margin-top: 3rem;
+    overflow-x: scroll;
+}
+#download-icon{
+    color: black;
+}
+#table-heading-final-regulations{
+    background-color: #A5D7E8;
+    color: black;
+    width:100%;
+    height:4rem;
+    text-align: center;
+    padding: 15px 0;
+}
+
+@media (max-width: 640px){
+    .Regulations{
+        margin: 1rem 1.5rem;
+    }
+    #regulation-row{
+        margin-left:0rem;
+    }
+    #year-tab {
+        margin-left: 4rem;
+        width: 12rem;
+      }
+      .dropdown-wrapper {
+        margin-left: 0rem;
+      }
+      #dropdown-area {
+        width: 21rem;
+        
+      }
+      #search-btn-finalreg {
+        margin-top: -4rem;
+        margin-left: 16.4rem;
+        height: 3rem;
+      }
+      #table-heading-final-regulations{
+        font-size:18px;
+      }
+      #draft-regulation-table{
+        overflow-x: scroll;
+      }
+}
+
+@media only screen and (max-width: 840px){
+    #regulation-row{
+        margin-top: 10px;
+        margin-left: 0rem;
+    }
+    #search-btn-reg{
+        margin-top: -10px;
+    }
+    .Search-aling {
+        width: 460px;
+        margin-top: -15px;
+      }
+      .dropdown-wrapper {
+        margin-left: 0rem;
+      }
+      #search-btn-finalreg {
+        margin-top: -4rem;
+        margin-left: 16.4rem;
+        height: 3rem;
+      }
+      #draft-regulation-table{
+        overflow-x: scroll;
+      }
+}

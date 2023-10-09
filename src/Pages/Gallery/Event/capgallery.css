@@ -1,0 +1,22 @@
+
+
+@media (max-width: 640px){
+    figure {
+      width: 24rem;
+      height: 283px;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      overflow: hidden;
+  }
+  #cap-row{
+    margin-top: 5rem;
+  }
+  .gallery-wrapper-cap{
+    margin-top: 5rem;
+    margin-left: 0rem;
+  }
+  #cap-row-img{
+    margin-top: 5rem;
+  }
+  }

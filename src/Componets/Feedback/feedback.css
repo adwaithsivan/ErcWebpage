@@ -1,0 +1,39 @@
+.feedback{
+    height: 130px;
+    width: 47px;
+    background-color: #00048b;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    /* border: 2px solid #000; */
+
+}
+
+
+.feedback-aling{
+     position: fixed;
+     right: 0;
+     z-index: 1030;
+     display: inline;
+     top: 50%;
+
+}
+.feedback-aling a{
+    text-decoration: none;
+}
+
+.feedback-text{
+    writing-mode: vertical-lr;
+    display: inline;
+    padding-top: 10px;
+    transform: rotate(180deg);
+    font-size: 20px;
+     color : #fff;
+   
+}
+/* @media only screen and (max-width: 480px){
+    .feedback-aling{
+        top: 60%;
+   
+   }
+} */

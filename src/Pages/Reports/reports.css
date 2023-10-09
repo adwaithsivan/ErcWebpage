@@ -1,0 +1,13 @@
+.report-tabs{
+    margin:2rem 8rem;
+}
+@media (max-width: 640px){
+    .report-tabs{
+        margin:1rem 1.5rem;
+    }
+}
+@media only screen and (max-width: 840px){
+    .report-tabs{
+        margin:2rem 2rem;
+    }
+}

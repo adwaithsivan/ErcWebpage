@@ -1,0 +1,113 @@
+.logo-bar {
+  margin: 5rem 5rem;
+  height: 3rem;
+}
+.main-logo{
+  margin-top: -5rem;
+}
+.logo-img{
+       height: 122px;
+}
+#eng-text{
+  font-size:28px;
+}
+#malayalam-text{
+  font-size:26px;
+}
+
+.g20-malayalam{
+    height: 62px;
+}
+
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: center;
+}
+  
+.navbar-brand {
+    padding-top: var(--bs-navbar-brand-padding-y);
+    padding-bottom: var(--bs-navbar-brand-padding-y);
+    margin-right: var(--bs-navbar-brand-margin-end);
+    font-size: var(--bs-navbar-brand-font-size);
+    color: var(--bs-navbar-brand-color);
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: bold;
+    margin-right: 3rem;
+}
+
+/* @media only screen and (max-width: 840px) {
+  .logo-img{
+    height: 80px;
+}
+#eng-text{
+  
+font-size:20px;
+}
+#malayalam-text{
+  margin-left: 20px;
+font-size:20px;
+}
+
+} */
+
+@media (max-width: 1600px){
+  #logo-bar {
+    margin: 5rem 6rem;
+    height: 3rem;
+  }
+  #main-logo{
+    margin-top: -5rem;
+  }
+  #logo-img{
+         height: 100px;
+  }
+  #eng-text{
+    font-size:24px;
+  }
+  #malayalam-text{
+    font-size:21px;
+  }
+  
+  .g20-malayalam{
+      height: 62px;
+  }
+
+}
+
+@media (max-width: 640px){
+  #logo-bar {
+    margin: 5rem 0rem;
+    height: 2rem;
+  }
+  #logo-img{
+    height: 55px;
+}
+#eng-text{
+  margin-left: -25px;
+font-size:14px;
+}
+#malayalam-text{
+  margin-left: 5rem;
+font-size:13px;
+}
+.left-options, .right-options {
+  border: 1px solid #000;
+  margin-top: -2rem;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6rem;
+  width: 16rem;
+}
+.right-options{
+  margin-top: 2rem;
+}
+}
+
+
+
+

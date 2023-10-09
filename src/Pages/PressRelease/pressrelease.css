@@ -1,0 +1,33 @@
+.press-table{
+    margin:2rem 8rem;
+}
+.press-release-search-area{
+    margin-top:2rem;
+}
+.reg-row{
+    margin-left:35rem;
+}
+
+@media (max-width: 640px){
+    #press-release-search-area{
+            margin-left: 4rem;
+    }
+    .press-table{
+        margin:1rem 1.5rem;
+        font-size:13px;
+    }
+    #press-form-align {
+        display: flex;
+        justify-content: left;
+        margin-left: -2rem;
+      }
+}
+@media only screen and (max-width: 840px){
+    .press-table{
+        margin:2rem 2rem;
+    }
+    .reg-row {
+        width: 100%;
+        margin-left: 9rem;
+      }
+}

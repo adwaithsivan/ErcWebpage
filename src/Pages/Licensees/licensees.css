@@ -1,0 +1,19 @@
+.smart-city-caption{
+     text-align: center;
+}
+.licensee-img {
+    width: 100%;
+    height: 250px;
+}
+
+.smart-city-text{
+     text-align: justify;
+}
+.startup-heading{
+     font-size:30px;
+}
+@media only screen and (max-width: 840px){
+     .smart-city-text{
+          font-size:15px;
+     }
+}

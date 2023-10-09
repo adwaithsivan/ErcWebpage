@@ -1,0 +1,39 @@
+.sac-search-area {
+  margin-left: 1rem;
+}
+
+.StateAdvisory {
+  margin: 0;
+  padding: 0;
+}
+.StateAdvisory-img {
+  width: 100%;
+  height: 497px;
+}
+#download-btn {
+  cursor: pointer;
+}
+.minutes-tab {
+  margin-top: 2rem;
+}
+
+#sac-wrapper {
+  margin-top: -3rem;
+}
+
+@media (max-width: 480px) {
+  #year-tab-sac {
+    flex: 0 0 auto;
+    width: 10rem;
+    margin-left: 0rem;
+  }
+  #sac-wrapper {
+    margin-top: -3rem;
+  }
+}
+@media only screen and (max-width: 840px) {
+  .sac-search-area {
+    margin-left: 0rem;
+  }
+ 
+}

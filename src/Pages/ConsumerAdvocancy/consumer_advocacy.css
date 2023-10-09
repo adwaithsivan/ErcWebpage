@@ -1,0 +1,26 @@
+.desc-wrapper{
+    margin: 2rem 8rem;
+}
+.advocacy-main{
+    border: 1px solid #000;
+}
+.advocacy-head{
+    text-align: center;
+    margin-top: 20px;
+}
+.advocancy-desc{
+    margin-top:2rem;
+}
+.Objective-heading{
+    font-weight: 600;
+}
+
+@media (max-width: 640px){
+    .desc-wrapper{
+        margin: 1rem 1.5rem;
+    }
+    .advocacy-head{
+        font-size:18px;
+    }
+   
+}
